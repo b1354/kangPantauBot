@@ -7,6 +7,7 @@
     "dev": "ts-node-dev --respawn --transpile-only src/bot.ts",
     "dev:strict": "ts-node-dev --respawn src/bot.ts",
     "build": "tsc",
+    "build:functions": "esbuild src/netlify/functions/webhook.ts --bundle --platform=node --target=node16 --outfile=netlify/functions/webhook.js",
     "start": "node .dist/src/bot.js"
   },
   "keywords": [],
@@ -20,6 +21,7 @@
   },
   "devDependencies": {
     "@types/node": "^24.3.0",
+    "esbuild": "^0.25.9",
     "ts-node": "^10.9.2",
     "ts-node-dev": "^2.0.0",
     "typescript": "^5.9.2"

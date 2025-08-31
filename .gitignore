@@ -37,3 +37,6 @@ coverage/
 # Optional cache
 .cache/
 .next/
+
+# Local Netlify folder
+.netlify

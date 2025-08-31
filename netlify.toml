@@ -1,0 +1,7 @@
+[build]
+  command   = "npm install && npm run build:functions"
+  functions = "netlify/functions"
+  publish   = ""   # kosong, kita nggak punya static site
+
+[functions]
+  node_bundler = "esbuild"
