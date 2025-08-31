@@ -21,7 +21,7 @@ bot.on(message("text"), async (ctx) => {
 });
 
 bot.launch().then(() => {
-  console.log("🤖 Bot is running...");
+  console.log("🤖 This nigga is running...");
 });
 
 process.once("SIGINT", () => bot.stop("SIGINT"));

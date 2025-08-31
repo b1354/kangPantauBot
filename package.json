@@ -7,7 +7,7 @@
     "dev": "ts-node-dev --respawn --transpile-only src/bot.ts",
     "dev:strict": "ts-node-dev --respawn src/bot.ts",
     "build": "tsc",
-    "start": "node dist/bot.js"
+    "start": "node .dist/src/bot.js"
   },
   "keywords": [],
   "author": "",
